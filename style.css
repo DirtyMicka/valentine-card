@@ -1,0 +1,50 @@
+body{
+    background-color: antiquewhite;
+}
+.img{
+    display:inline-block;
+
+}
+.pic{
+  width: 50%;
+  margin: auto;}
+  
+h2{
+    text-align: center;
+}
+h3{
+    text-align:justify;
+    display: block;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+p{
+    text-align: center;
+}
+.container{
+    background-color: violet;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 200px;
+    width: 100%;
+}
+.container div{
+    flex-basis: 300px;
+    width: 50px;
+    height: 200px;
+}
+.Box1{
+    background-color: purple;
+    color: white;
+    display: flex;
+}
+.Box2{
+    background-color: purple;
+    color:white;
+    display: flex;
+}
